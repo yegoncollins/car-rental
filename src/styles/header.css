@@ -93,3 +93,53 @@
 .header_btn a:hover{
     color: #fff;
 }
+.header_navbar{
+    padding: 15px 0px;
+    background: #610e0e;
+}
+.mobile_menu i{
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.mobile_menu{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    align-items:center;
+    column-gap: 2.7rem;
+}
+.nav_item{
+    color: #fff;
+    text-decoration: none;
+}
+.nav_item:hover{
+    color: #fff;
+}
+.search_box{
+    border: 1px solid #62aced;
+    padding: 7px 12px;
+    display: flex;
+    align-items:center;
+    border-radius: 50px;
+    background-color: #3d1410;
+}
+.search_box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.search_box input ::placeholder{
+    font-size: 0.8rem;
+}
+.search_box span i{
+    color: #fff;
+}
+.nav_active{
+    color: #f3c612;
+}

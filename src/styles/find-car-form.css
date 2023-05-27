@@ -1,0 +1,79 @@
+.find_cars-left{
+    background: linear-gradient(rgb(249, 168, 38, 0.9),rgba(249, 168, 38,0.9))
+    ,url('../assets/all-images/toyota-offer-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+.find_cars-left h2{
+    font-weight: 600;
+    font-size: 2.8rem;
+    
+}
+
+.form_group{
+    width: 30%;
+    margin-bottom: 0;
+}
+.form_group input{
+    border: 1px solid #f7d8d8;
+    padding: 8px 12px;
+    outline: none;
+    border-radius: 6px;
+    width: 100%;
+}
+.form_group input::placeholder{
+    color: #9d6565;
+}
+.form{
+    background: #fff;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.select_group{
+    width: 30%;
+}
+.select_group select{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #f7d8d8;
+    outline: none;
+    color: #9d6565;
+    border-radius:6px;
+}
+.select_group select option{
+    border-radius: 6px;
+}
+.hero_slider-section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 150px;
+}
+.hero_form{
+    position: absolute;
+    bottom: -80px;
+    z-index: 11;
+    width: 100%;
+    
+}
+
+.form_row{
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #f5a5a5;
+}
+.pickup_time::before{
+  content: 'Pickup Time';
+  margin-right: 0.8rem;
+  color: #9d6565;
+}
+.find_car-btn{
+    background: #610e0e !important;
+    color: #fff !important;
+    padding: 8px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
