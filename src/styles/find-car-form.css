@@ -64,11 +64,26 @@
     background: #fff;
     box-shadow: 5px 5px 15px -5px #f5a5a5;
 }
+.pickup_date::before{
+    content: 'Pickup Date:';
+    margin-right: 0.8rem;
+    color: #9d6565;
+  }
+  .return_date::before{
+    content: 'Return Date:';
+    margin-right: 0.8rem;
+    color: #9d6565;
+  }
 .pickup_time::before{
-  content: 'Pickup Time';
+  content: 'Pickup Time:';
   margin-right: 0.8rem;
   color: #9d6565;
 }
+.drop_time::before{
+    content: 'Return Time:';
+    margin-right: 0.8rem;
+    color: #9d6565;
+  }
 .find_car-btn{
     background: #610e0e !important;
     color: #fff !important;

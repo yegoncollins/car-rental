@@ -1,21 +1,21 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
+    title: "Road Trip",
     icon: "ri-map-pin-2-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
+    title: "Vacation",
     icon: "ri-community-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
+    title: "Upcountry",
     icon: "ri-roadster-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
@@ -29,15 +29,21 @@ const serviceData = [
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "Uber",
     icon: "ri-map-pin-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
-    icon: "ri-flight-takeoff-line",
+    title: "City Tour",
+    icon: "ri-taxi-fill",
+    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+  },
+  {
+    id: 7,
+    title: "Airport Taxi",
+    icon: "ri-flight-takeoff-fill",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 ];
