@@ -7,6 +7,8 @@ import AboutSection from '../components/UI/AboutSection'
 import ServiceList from '../components/UI/ServiceList'
 import carData from '../assets/data/carData'
 import CarItem from '../components/UI/CarItem'
+import BecomeDriverSection from '../components/UI/BecomeDriverSection'
+import Testimonials from '../components/UI/Testimonials'
 
 const Home = () => {
   return (
@@ -57,6 +59,22 @@ const Home = () => {
                 <CarItem item={item} key={item.id}/>
               ))
             }
+          </Row>
+        </Container>
+      </section>
+      
+      <BecomeDriverSection/>
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className='mb-4 text-center'>
+            <h6 className="section_subtitle">Our Clients says</h6>
+            <h2 className="section_title">Testimonials</h2>
+            </Col>
+            
+            <Testimonials/>
+
           </Row>
         </Container>
       </section>

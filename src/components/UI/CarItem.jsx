@@ -2,6 +2,7 @@
 import React from 'react'
 import {Col} from 'reactstrap'
 import {Link} from 'react-router-dom'
+import Slider from 'react-slick'
 import '../../styles/car-items.css'
 
 

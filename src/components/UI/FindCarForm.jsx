@@ -6,21 +6,23 @@ const FindCarForm = () => {
   return (
     <Form className='form'>
         <div className='d-flex align-items-center justify-content-between flex-wrap'>
+        
+     
           <FormGroup className='form_group'>
-           <input type="text" placeholder='Address' required />
+           <input type="text" placeholder=' Pickup Address' required />
           </FormGroup>
 
           <FormGroup className='form_group'>
            <input type="date" className='pickup_date'placeholder='From date' required />
           </FormGroup>
           <FormGroup className='form_group'>
-           <input type="date"className='return_date' placeholder='To date' required />
+           <input type="date"className='dropoff_date' placeholder='To date' required />
           </FormGroup>
           <FormGroup className='form_group'>
            <input type="time" className='pickup_time' placeholder=' From Time' required />
           </FormGroup>
           <FormGroup className='form_group'>
-           <input type="time" className='drop_time' placeholder='To Time' required />
+           <input type="time" className='dropoff_time' placeholder='To Time' required />
           </FormGroup>
 
           <FormGroup className='select_group'>

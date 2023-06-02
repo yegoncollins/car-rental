@@ -69,8 +69,8 @@
     margin-right: 0.8rem;
     color: #9d6565;
   }
-  .return_date::before{
-    content: 'Return Date:';
+  .dropoff_date::before{
+    content: 'Dropoff Date:';
     margin-right: 0.8rem;
     color: #9d6565;
   }
@@ -79,8 +79,8 @@
   margin-right: 0.8rem;
   color: #9d6565;
 }
-.drop_time::before{
-    content: 'Return Time:';
+.dropoff_time::before{
+    content: 'Dropoff Time:';
     margin-right: 0.8rem;
     color: #9d6565;
   }
